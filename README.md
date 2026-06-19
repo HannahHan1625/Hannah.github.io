@@ -8,6 +8,9 @@ Static personal website for GitHub Pages.
 - `styles.css`: visual design and responsive layout
 - `script.js`: small header/year behavior
 - `assets/hero-ai-product-workbench.png`: generated hero image
+- `roadmap.md`: product roadmap and decision log
+- `docs/window-interaction-system.md`: research notes for the window interaction concept
+- `docs/references/windows/`: reference images for window research
 
 ## Local Preview
 
