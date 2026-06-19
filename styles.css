@@ -106,6 +106,24 @@ button {
   opacity: 1;
 }
 
+.language-toggle {
+  min-width: 46px;
+  min-height: 34px;
+  border: 1px solid rgba(23, 23, 21, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.44);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 820;
+  cursor: pointer;
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  background: var(--white);
+  outline: none;
+}
+
 .hero {
   min-height: 100vh;
   display: grid;
@@ -559,6 +577,10 @@ h1 {
   .nav {
     gap: 12px;
     font-size: 13px;
+  }
+
+  .language-toggle {
+    min-width: 42px;
   }
 
   .hero {

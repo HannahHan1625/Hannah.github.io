@@ -148,3 +148,4 @@ Definition of Done:
 - The repository is hosted on GitHub.
 - GitHub Pages is live.
 - Do not rush the window interaction before the concept is better specified.
+- The site should support Chinese/English switching as part of Hannah's long-term interview and language-learning strategy.

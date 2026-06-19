@@ -59,3 +59,5 @@ Strict publishing rule: do not publish until the email, GitHub URL, LinkedIn URL
 - `CTA / Call to Action`: 行动按钮，例如 Email、GitHub、LinkedIn。
 - `Responsive layout`: 响应式布局，确保桌面和手机屏幕都能阅读和操作。
 - `Placeholder`: 占位内容，发布前必须替换成真实信息。
+- `i18n / Internationalization`: 国际化，让网站具备多语言扩展能力。
+- `Language switcher`: 语言切换器，当前是右上角的 `EN / 中文` 按钮。

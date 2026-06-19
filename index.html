@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-lang="zh">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,18 +24,19 @@
         <span>Hannah</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#windows">Windows</a>
-        <a href="#manifesto">Manifesto</a>
-        <a href="#connect">Connect</a>
+        <a href="#windows" data-i18n="nav.windows">Windows</a>
+        <a href="#manifesto" data-i18n="nav.manifesto">Manifesto</a>
+        <a href="#connect" data-i18n="nav.connect">Connect</a>
       </nav>
+      <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">EN</button>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">A personal site as a set of windows</p>
-          <h1 id="hero-title">每个人都拿着自己的取景框，看见世界的一部分。</h1>
-          <p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">A personal site as a set of windows</p>
+          <h1 id="hero-title" data-i18n="hero.title">每个人都拿着自己的取景框，看见世界的一部分。</h1>
+          <p data-i18n="hero.body">
             这里会逐步打开我的个人简介、AI 产品实验、学习笔记与 AI coding 作品。窗不是高处的宣告，
             而是一种姿态：保持好奇，承认局限，邀请别人从不同角度靠近。
           </p>
@@ -56,49 +57,49 @@
 
       <section class="window-stage" id="windows" aria-labelledby="windows-title">
         <div class="stage-heading">
-          <p class="section-kicker">Open a window</p>
-          <h2 id="windows-title">从不同的窗口进入我正在成为的人。</h2>
-          <p>
+          <p class="section-kicker" data-i18n="windows.eyebrow">Open a window</p>
+          <h2 id="windows-title" data-i18n="windows.title">从不同的窗口进入我正在成为的人。</h2>
+          <p data-i18n="windows.body">
             第一版首页先建立交互骨架。每个窗口后续都会变成一个独立页面：简介、项目、学习、方法、连接。
           </p>
         </div>
 
         <div class="window-grid" aria-label="Portfolio windows">
           <button class="window-card about-window" type="button" data-window="about">
-            <span class="window-label">01 / About</span>
-            <span class="window-title">个人简介</span>
-            <span class="window-line">项目管理、运营、设计经验，正在转向 AI 产品。</span>
+            <span class="window-label" data-i18n="cards.about.label">01 / About</span>
+            <span class="window-title" data-i18n="cards.about.title">个人简介</span>
+            <span class="window-line" data-i18n="cards.about.body">项目管理、运营、设计经验，正在转向 AI 产品。</span>
           </button>
 
           <button class="window-card product-window" type="button" data-window="products">
-            <span class="window-label">02 / Products</span>
-            <span class="window-title">AI coding 产品</span>
-            <span class="window-line">把想法做成可试用、可解释、可迭代的作品。</span>
+            <span class="window-label" data-i18n="cards.products.label">02 / Products</span>
+            <span class="window-title" data-i18n="cards.products.title">AI coding 产品</span>
+            <span class="window-line" data-i18n="cards.products.body">把想法做成可试用、可解释、可迭代的作品。</span>
           </button>
 
           <button class="window-card learning-window" type="button" data-window="learning">
-            <span class="window-label">03 / Learning</span>
-            <span class="window-title">学习轨迹</span>
-            <span class="window-line">RAG、LLM、MCP，以及正在建立的 AI PM 判断力。</span>
+            <span class="window-label" data-i18n="cards.learning.label">03 / Learning</span>
+            <span class="window-title" data-i18n="cards.learning.title">学习轨迹</span>
+            <span class="window-line" data-i18n="cards.learning.body">RAG、LLM、MCP，以及正在建立的 AI PM 判断力。</span>
           </button>
 
           <button class="window-card method-window" type="button" data-window="method">
-            <span class="window-label">04 / Method</span>
-            <span class="window-title">工作方法</span>
-            <span class="window-line">先定义问题，再设计系统，最后用证据改进。</span>
+            <span class="window-label" data-i18n="cards.method.label">04 / Method</span>
+            <span class="window-title" data-i18n="cards.method.title">工作方法</span>
+            <span class="window-line" data-i18n="cards.method.body">先定义问题，再设计系统，最后用证据改进。</span>
           </button>
         </div>
       </section>
 
       <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
-        <p class="section-kicker">Manifesto</p>
-        <h2 id="manifesto-title">窗不是答案，是入口。</h2>
+        <p class="section-kicker" data-i18n="manifesto.eyebrow">Manifesto</p>
+        <h2 id="manifesto-title" data-i18n="manifesto.title">窗不是答案，是入口。</h2>
         <div class="manifesto-grid">
-          <p>
+          <p data-i18n="manifesto.bodyOne">
             我希望这个网站不只是陈列成就，而是记录一个人如何把复杂世界一点点看清楚：先承认自己的视角有限，
             再通过产品、研究、设计和对话，扩展那扇窗。
           </p>
-          <p>
+          <p data-i18n="manifesto.bodyTwo">
             道也好，真理也罢，我们每个人只是在拿着自己的取景框看它。我的目标不是显得全知，
             而是持续提出更好的问题，做出更诚实的作品。
           </p>
@@ -107,20 +108,20 @@
 
       <section class="connect" id="connect" aria-labelledby="connect-title">
         <div>
-          <p class="section-kicker">Connect</p>
-          <h2 id="connect-title">如果你也在探索 AI、产品和人的关系，欢迎敲窗。</h2>
+          <p class="section-kicker" data-i18n="connect.eyebrow">Connect</p>
+          <h2 id="connect-title" data-i18n="connect.title">如果你也在探索 AI、产品和人的关系，欢迎敲窗。</h2>
         </div>
         <div class="connect-actions">
           <a class="button primary" href="mailto:hello@example.com">Email</a>
-          <a class="button secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/HannahHan1625" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/hannahye20000430/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span data-year></span> Hannah. Built through windows, refined through evidence.</p>
-      <a href="#top">Back to top</a>
+      <p data-i18n-prefix="footer.prefix">© <span data-year></span> <span data-i18n="footer.text">Hannah. Built through windows, refined through evidence.</span></p>
+      <a href="#top" data-i18n="footer.back">Back to top</a>
     </footer>
 
     <dialog class="window-dialog" data-dialog>
