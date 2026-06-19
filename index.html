@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hannah | Windows into AI Product Work</title>
+    <meta
+      name="description"
+      content="Hannah's personal site: a window-themed portfolio for AI product thinking, AI coding products, learning notes, and human-centered experiments."
+    />
+    <meta property="og:title" content="Hannah | Windows into AI Product Work" />
+    <meta
+      property="og:description"
+      content="A window-themed personal portfolio for AI product work, learning notes, and AI coding experiments."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/hero-ai-product-workbench.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Hannah home">
+        <span class="brand-mark">H</span>
+        <span>Hannah</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#windows">Windows</a>
+        <a href="#manifesto">Manifesto</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A personal site as a set of windows</p>
+          <h1 id="hero-title">每个人都拿着自己的取景框，看见世界的一部分。</h1>
+          <p>
+            这里会逐步打开我的个人简介、AI 产品实验、学习笔记与 AI coding 作品。窗不是高处的宣告，
+            而是一种姿态：保持好奇，承认局限，邀请别人从不同角度靠近。
+          </p>
+        </div>
+
+        <div class="hero-window" aria-label="A large visual window into Hannah's AI product workbench">
+          <div class="window-chrome">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <img
+            src="assets/hero-ai-product-workbench.png"
+            alt="A refined AI product workbench with notes, wireframes, charts, and product screens."
+          />
+        </div>
+      </section>
+
+      <section class="window-stage" id="windows" aria-labelledby="windows-title">
+        <div class="stage-heading">
+          <p class="section-kicker">Open a window</p>
+          <h2 id="windows-title">从不同的窗口进入我正在成为的人。</h2>
+          <p>
+            第一版首页先建立交互骨架。每个窗口后续都会变成一个独立页面：简介、项目、学习、方法、连接。
+          </p>
+        </div>
+
+        <div class="window-grid" aria-label="Portfolio windows">
+          <button class="window-card about-window" type="button" data-window="about">
+            <span class="window-label">01 / About</span>
+            <span class="window-title">个人简介</span>
+            <span class="window-line">项目管理、运营、设计经验，正在转向 AI 产品。</span>
+          </button>
+
+          <button class="window-card product-window" type="button" data-window="products">
+            <span class="window-label">02 / Products</span>
+            <span class="window-title">AI coding 产品</span>
+            <span class="window-line">把想法做成可试用、可解释、可迭代的作品。</span>
+          </button>
+
+          <button class="window-card learning-window" type="button" data-window="learning">
+            <span class="window-label">03 / Learning</span>
+            <span class="window-title">学习轨迹</span>
+            <span class="window-line">RAG、LLM、MCP，以及正在建立的 AI PM 判断力。</span>
+          </button>
+
+          <button class="window-card method-window" type="button" data-window="method">
+            <span class="window-label">04 / Method</span>
+            <span class="window-title">工作方法</span>
+            <span class="window-line">先定义问题，再设计系统，最后用证据改进。</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
+        <p class="section-kicker">Manifesto</p>
+        <h2 id="manifesto-title">窗不是答案，是入口。</h2>
+        <div class="manifesto-grid">
+          <p>
+            我希望这个网站不只是陈列成就，而是记录一个人如何把复杂世界一点点看清楚：先承认自己的视角有限，
+            再通过产品、研究、设计和对话，扩展那扇窗。
+          </p>
+          <p>
+            道也好，真理也罢，我们每个人只是在拿着自己的取景框看它。我的目标不是显得全知，
+            而是持续提出更好的问题，做出更诚实的作品。
+          </p>
+        </div>
+      </section>
+
+      <section class="connect" id="connect" aria-labelledby="connect-title">
+        <div>
+          <p class="section-kicker">Connect</p>
+          <h2 id="connect-title">如果你也在探索 AI、产品和人的关系，欢迎敲窗。</h2>
+        </div>
+        <div class="connect-actions">
+          <a class="button primary" href="mailto:hello@example.com">Email</a>
+          <a class="button secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Hannah. Built through windows, refined through evidence.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <dialog class="window-dialog" data-dialog>
+      <div class="dialog-shell">
+        <button class="dialog-close" type="button" data-close aria-label="Close window">×</button>
+        <p class="dialog-kicker" data-dialog-kicker></p>
+        <h2 data-dialog-title></h2>
+        <p data-dialog-body></p>
+        <a data-dialog-link href="#connect">Continue</a>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
