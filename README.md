@@ -27,7 +27,7 @@ http://localhost:8000/site/
 
 Replace these placeholders:
 
-- `hello@example.com`
+- `foliage0430@163.com`
 - GitHub profile URL
 - LinkedIn profile URL
 - project descriptions
