@@ -11,6 +11,7 @@ Static personal website for GitHub Pages.
 - `roadmap.md`: product roadmap and decision log
 - `docs/window-interaction-system.md`: research notes for the window interaction concept
 - `docs/references/windows/`: reference images for window research
+- `prototypes/garden-window/`: first interactive Chinese garden window prototype
 
 ## Local Preview
 

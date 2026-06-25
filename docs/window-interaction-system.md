@@ -117,6 +117,15 @@ Test:
 
 ## Decisions
 
+### 2026-06-26
+
+- Start with one window only: a Chinese garden sliding window.
+- Use six vertical wooden panels.
+- Keep the view mostly front-facing with a slight perspective feeling.
+- The panels should not feel fully solid; the cutout areas should reveal garden plants outside.
+- The outside view should feel fresh, comfortable, and minimal, using watercolor-like banana leaves or fruit-tree foliage.
+- Build this first as an isolated prototype before integrating it into the homepage.
+
 ### 2026-06-20
 
 - Keep the window concept as an interaction and motion system, not just a visual card layout.

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Garden Window Prototype | Hannah</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="prototype-shell">
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow">Prototype 01 / Inward Window</p>
+        <h1 id="title">中式园林推窗</h1>
+        <p>
+          六扇木窗板从中间向两侧推开，露出窗外的芭蕉与园林植物。第一版先验证窗型、开合方向、
+          透景孔和清新舒适的视觉气质。
+        </p>
+        <button class="toggle-button" type="button" data-toggle-window>打开窗户</button>
+      </section>
+
+      <section class="stage" aria-label="Interactive Chinese garden sliding window">
+        <div class="window-scene" data-window>
+          <img
+            class="garden-view"
+            src="assets/garden-watercolor.png"
+            alt="Watercolor Chinese garden view with banana leaves and pomegranate branches."
+          />
+          <div class="mist"></div>
+          <div class="panel panel-1" style="--i: 0">
+            <span class="pierced-shape"></span>
+            <span class="engraving engraving-a"></span>
+          </div>
+          <div class="panel panel-2" style="--i: 1">
+            <span class="pierced-shape"></span>
+            <span class="engraving engraving-b"></span>
+          </div>
+          <div class="panel panel-3" style="--i: 2">
+            <span class="pierced-shape"></span>
+            <span class="engraving engraving-a"></span>
+          </div>
+          <div class="panel panel-4" style="--i: 3">
+            <span class="pierced-shape"></span>
+            <span class="engraving engraving-b"></span>
+          </div>
+          <div class="panel panel-5" style="--i: 4">
+            <span class="pierced-shape"></span>
+            <span class="engraving engraving-a"></span>
+          </div>
+          <div class="panel panel-6" style="--i: 5">
+            <span class="pierced-shape"></span>
+            <span class="engraving engraving-b"></span>
+          </div>
+          <div class="center-seam" aria-hidden="true"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
